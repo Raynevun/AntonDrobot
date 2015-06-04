@@ -1,5 +1,5 @@
 load 'timestamp.rb'
-require 'test/unit'
+require 'minitest/autorun'
 require 'net/http'
 require 'open-uri'
 require 'Nokogiri'
