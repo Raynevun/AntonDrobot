@@ -4,7 +4,7 @@ require 'net/http'
 require 'open-uri'
 require 'Nokogiri'
 
-class TimeStampTests < Test::Unit::TestCase
+class TimeStampTests < Minitest::Test
 	def test_defaultRec
 		time_var = Time.now.to_i
 		doc = timeStampReq('' ,time_var)
